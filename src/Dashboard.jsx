@@ -283,7 +283,7 @@ export default function Dashboard() {
                           {v.address}
                         </td>
                           {/* formModal */}
-                        <div className={`bg-[white] w-150 h-[70vh] fixed  rounded-xl p-2 shadow-lg top-46 left-[38%] z-[999] ${editdata == true ? "block" : "hidden"}`}>
+                        <div className={`bg-[white] w-150 h-[74vh] fixed  rounded-xl p-2 shadow-sm top-40 left-[38%] z-[999] ${editdata == true ? "block" : "hidden"}`}>
                           <div className=' flex text-center'>
                             <h2 className='font-bold mx-[auto]'>Edit Your Data</h2>
                             <span className='cursor-pointer' onClick={closeModelFn}><RxCross2 /></span>
@@ -363,7 +363,7 @@ export default function Dashboard() {
             </table>
 
           </div>
-          <div className={`overlay bg-[rgba(0,0,0,0.3)] w-[68.9%] h-[79.7vh] top-37 fixed rounded-[0px_0px_10px_0px]  ${editdata == true ? " visible" : "invisible"}`}>
+          <div className={`overlay bg-[rgba(0,0,0,0.3)] w-[76.5%] h-[77.7vh] top-37 fixed rounded-[0px_0px_10px_0px]  ${editdata == true ? " visible" : "invisible"}`}>
 
           </div>
         </div>
